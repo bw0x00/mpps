@@ -1,0 +1,17 @@
+2017-09-12: Version 0.4
+        Minor Change to the PluginClass
+        Added DocStrings to the PluginClass
+
+2016-08-06: Version 0.3
+        Changed from multiprocessing.queue to AsyncManager
+        Now using proxied queue.Queue
+        Fixed some async race conditions
+
+2016-02-27: Version 0.2
+        pep8
+        TODO: Locking could be improved/ made safer; reader/writer
+        added async/callback functionality to PluginManager
+
+2015-06-08: Release Version 0.1
+        Fix: Close FD after plugin-file was read
+        License: Set License to BSD license
